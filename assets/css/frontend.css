@@ -1,0 +1,33 @@
+.related-posts.js--loaded .related-posts__item:not(.related-post--js) svg {
+  opacity: .3;
+  pointer-events: none; }
+
+.related-posts__item {
+  position: relative;
+  border: none; }
+
+.related-post {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .related-post.related-post--js:hover .related-post__body {
+    border: none;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.85); }
+  .related-post__title {
+    max-width: 400px; }
+  .related-post__body {
+    z-index: 1;
+    border: 15px solid var(--bs-light);
+    background-color: var(--bs-light); }
+  .related-post__date svg {
+    fill: var(--bs-primary) !important; }
+  .related-post__avatar {
+    width: 25px;
+    height: 25px; }
+  .related-post > svg {
+    width: auto;
+    height: auto; }
+
+
+/*# sourceMappingURL=frontend.css.map*/
